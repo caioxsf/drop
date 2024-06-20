@@ -1,0 +1,201 @@
+body
+{
+    background-color: rgb(7, 7, 15);
+}
+
+.cor-div
+{
+    background-color: rgb(20, 20, 32);
+}
+
+.cor-div h5, p
+{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.cor-div .cor-botao
+{
+    background-color: rgb(7, 7, 15);
+    border: none;
+}
+
+.container-tudo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin-top: 250px;
+}
+
+.container-tudo2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 250px;
+    margin-inline: 700px;
+}
+
+.container-tudo2 input
+{
+    background-color: rgb(20, 20, 32);
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.container-tudo2 span
+{
+    color: rgba(255, 255, 255, 0.623);
+    background-color: rgb(41, 41, 49);
+    border: none;
+}
+
+.container-tudo2 input:focus
+{
+    background-color: rgb(20, 20, 32);
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.btn-add:hover
+{
+    background-color: rgb(39, 39, 59);
+}
+
+.container-tabela {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;  
+    max-width: 600px; 
+    margin: 0 auto; 
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    border-radius: 8px; 
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td
+{
+    white-space: nowrap; 
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    background-color: rgb(20, 20, 32);
+    color: white;
+}
+
+td
+{
+    text-align: start;
+    padding-inline: 15px;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.coluna
+{
+    background-color: rgb(41, 41, 49);
+    color: rgba(255, 255, 255, 0.623);
+}
+
+a
+{
+    display: block;
+    max-width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    text-decoration: none;
+    color: rgb(74, 144, 187);
+}
+
+.container-tudo2 a
+{
+    background-color: rgb(20, 20, 32);
+    color: rgba(255, 255, 255, 0.623);
+    padding-inline: 40px;
+    padding-block: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.container-tudo2 a:hover
+{
+    background-color: rgb(39, 39, 59);
+}
+
+input.form-control:disabled {
+    background-color: rgb(20, 20, 32); 
+    color: rgba(255, 255, 255, 0.623); 
+    opacity: 1; 
+}
+.form-control-div
+{
+    background-color: rgb(20, 20, 32); 
+    padding-inline: 70px;
+    padding-block: 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+}
+
+@media (max-width: 1100px) 
+{
+    .container-tudo2
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        margin-top: 250px;
+        margin-inline: 300px;
+    }
+
+    
+}
+
+@media (max-width: 1800px) {
+    .container-tudo2
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin-top: 250px;
+        margin-inline: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .container-tudo2
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin-top: 250px;
+        margin-right: 501px;
+        width: 70%;
+
+        position: relative;
+        right: 130px;
+    }
+    
+}
